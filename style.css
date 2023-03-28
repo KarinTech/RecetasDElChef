@@ -27,7 +27,7 @@ h1 {
 
 }
 
-li {
+.nav li {
     background-color: gray;
     border-radius: 4px;
     display: inline;
@@ -71,3 +71,55 @@ a {
     transform: translate(-50%, -50%);
 }
 
+.contenedor img {
+   background-image: 100%;
+}
+
+.foot { 
+    
+    border:2px,rgb(6, 6, 6);
+    background-color: orangered;
+    border-radius: 4.2px;
+    margin:0.3%;
+    margin-top: 10px;
+    padding: 0.3%;
+    font-size: 1.8vw;
+    
+}
+
+.foot ul {
+    height: 38px;
+}
+
+.foot li {
+    display:inline;
+    color:black;
+    align-content: last baseline;
+    font-weight: bold;
+    padding: 5px;
+    justify-content: placeholder;
+
+    
+
+}
+
+.foot a {
+    padding:8px;
+}
+
+.foot a {
+   
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.foot a:hover {
+    color:rgb(6, 9, 1);
+    font-weight: bold;
+}
+
+.foot li,a, img {
+    margin-bottom:2px;
+
+}
