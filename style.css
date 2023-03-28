@@ -76,7 +76,7 @@ a {
 }
 
 .foot { 
-    
+    height: 48px;
     border:2px,rgb(6, 6, 6);
     background-color: orangered;
     border-radius: 4.2px;
@@ -97,6 +97,7 @@ a {
     align-content: last baseline;
     font-weight: bold;
     padding: 3px;
+    text-align: center;
   
 
     
@@ -121,5 +122,11 @@ a {
 
 .foot li,a, img {
     margin-bottom:2px;
+
+}
+
+.foot li a img {
+
+    vertical-align: middle;
 
 }
